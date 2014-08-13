@@ -23,7 +23,7 @@
 
 <%
 	// base href can be defined in config file for deployment.
-	String baseHref = request.getScheme( ) + "://" + request.getServerName( ) + ":" + request.getServerPort( );
+	String baseHref = "";
 	if( !attributeBean.isDesigner( ) )
 	{
 		String baseURL = ParameterAccessor.getBaseURL( );
